@@ -35,7 +35,8 @@ void testBucketingByNumberOfCycles() {
   printf("Done counting :)\n");
 }
 void testBucketingByNumberOfCycles2(){
-  //function to test condition where only greater that 919 are available 
+  //function to test condition where only greater that 919 are available
+  
   const int chargeCycleCounts[] = {100, 300, 350,390};
   const int numberOfBatteries = sizeof(chargeCycleCounts) / sizeof(chargeCycleCounts[0]);
   printf("Counting batteries by usage cycles...\n");
