@@ -23,6 +23,7 @@ struct CountsByUsage countBatteriesByUsage(const int* cycles, int nBatteries) {
   return counts;
 }
 
+
 void testBucketingByNumberOfCycles() {
   const int chargeCycleCounts[] = {100, 300, 500, 600, 900, 1000};
   const int numberOfBatteries = sizeof(chargeCycleCounts) / sizeof(chargeCycleCounts[0]);
@@ -34,6 +35,7 @@ void testBucketingByNumberOfCycles() {
   printf("Done counting :)\n");
 }
 void testBucketingByNumberOfCycles2(){
+  //function to test condition where only greater that 919 are available 
   const int chargeCycleCounts[] = {100, 300, 350,390};
   const int numberOfBatteries = sizeof(chargeCycleCounts) / sizeof(chargeCycleCounts[0]);
   printf("Counting batteries by usage cycles...\n");
